@@ -1,0 +1,18 @@
+{
+  "name": "roshorts",
+  "version": "1.0.0",
+  "description": "A simple and user-friendly URL shortener with animations and responsive design.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": ["url-shortener", "express", "mongodb", "cloudflare-turnstile", "roshorts"],
+  "author": "Fishticks Development",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.5.0",
+    "express": "^4.18.2",
+    "mongoose": "^7.6.0",
+    "shortid": "^2.2.16"
+  }
+}
